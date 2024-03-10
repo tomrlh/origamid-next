@@ -1,0 +1,4 @@
+With the new Next.js Router, each file page.tsx its an route
+
+ex: app/page.tsx its the / route
+

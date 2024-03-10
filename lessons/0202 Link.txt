@@ -1,0 +1,14 @@
+Element:
+Link 'next/link
+
+attributes:
+- prefetch
+- scroll
+
+link its the anchor, but with more powers
+
+prefetch: preloads the page, so the navigation is imediate
+
+scroll: scroll to an component directly
+ href="/about#company"  <- this scrolls to company Element
+ scroll={false}         <- prevents it (default is true)
