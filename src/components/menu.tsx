@@ -13,6 +13,9 @@ const Menu = () => {
         <Link href="/contact">Contact</Link>
       </li>
       <li>
+        <Link href="/products">Products</Link>
+      </li>
+      <li>
         <Link href="/imc">IMC</Link>
       </li>
       <li>
