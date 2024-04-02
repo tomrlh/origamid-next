@@ -15,6 +15,12 @@ const Menu = () => {
       <li>
         <Link href="/imc">IMC</Link>
       </li>
+      <li>
+        <Link href="/server-fetch">Server Fetch</Link>
+      </li>
+      <li>
+        <Link href="/client-fetch">Client Fetch</Link>
+      </li>
     </ul>
   );
 };
