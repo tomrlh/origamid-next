@@ -1,0 +1,25 @@
+Server Components
+- by default, files under app folder, are Server Components
+- cant manipulate DOM
+- can be ASYNC
+
+Client Components
+- 'use client'
+- can access the DOM
+- rendered on client
+- pre-rendered on server-side
+
+always use client components outside the page folder
+
+=====================================
+
+Nested Components
+
+=====================================
+
+Pré-renderização
+
+- acontece no servidor
+
+
+NOTAS: entender melhor o que é hidratação
