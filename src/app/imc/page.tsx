@@ -1,6 +1,6 @@
-import CalculoIMC from "./CalculoIMC";
+import CalculoIMC from "@/components/CalculoIMC";
 
-const IMC = () => {
+const IMCPage = () => {
   return (
     <div>
       <CalculoIMC />
@@ -8,4 +8,4 @@ const IMC = () => {
   );
 };
 
-export default IMC;
+export default IMCPage;

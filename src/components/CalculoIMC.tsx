@@ -13,8 +13,9 @@ const CalculoIMC = () => {
   return (
     <>
       <div>
-        <label>PESO</label>
+        <label htmlFor="peso">PESO</label>
         <input
+          id="peso"
           type="number"
           value={peso}
           onChange={(event) => {
@@ -24,8 +25,9 @@ const CalculoIMC = () => {
       </div>
       <br />
       <div>
-        <label>ALTURA</label>
+        <label htmlFor="altura">ALTURA</label>
         <input
+          id="altura"
           type="number"
           value={altura}
           onChange={(event) => {
