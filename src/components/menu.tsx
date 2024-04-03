@@ -19,6 +19,9 @@ const Menu = () => {
         <Link href="/imc">IMC</Link>
       </li>
       <li>
+        <Link href="/cursos">Cursos</Link>
+      </li>
+      <li>
         <Link href="/server-fetch">Server Fetch</Link>
       </li>
       <li>
