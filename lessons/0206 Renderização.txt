@@ -1,0 +1,45 @@
+Renderização 1
+
+Arquivos renderizados no servidor, geram um leve atraso no carregamento
+
+
+STATIC
+- pré-render de páginas estáticas
+- gera um arquivo .html para cada página
+- carrega mais rápido
+
+DYNAMIC
+- rotas dinâmicas
+- execução de apis dinâmicas (como useSearchParams)
+- quando o fetch não possui cache
+- export const dynamic = 'force-dynamic'; // pode ser usado em páginas estaticas
+- export const revalidate = 0;
+
+
+
+Renderização 2
+
+Fetch do next por padrão:
+- coloca os dados no cache sem data para expirar
+- usar a prop const revalidade para mudar
+
+SSG - Static Site Generation
+
+PAGINA STATIC não significa que ela não vai mudar
+excelente para páginas estáticas
+o revalidate, faz um fetch a mais por baixo dos panos e 
+
+
+
+Renderização 3
+
+SSR - Server Side Rendering
+
+se as informações do fetch estão no HTML (DOM), significa que componente foi renderizado no servidor
+
+
+CSR - Client Side Rendering
+
+pode deixar o site um pouco mais lento
+a informação sempre é a mais atualizada (porém pode ser ligeiramente mais lenta)
+
