@@ -2,3 +2,28 @@ https://www.origamid.com/slide/nextjs/#/0302-server-actions/1
 
 Server Actions
 
+Funções que são executadas no servidor, mas podem ser iniciadas pelo cliente.
+Coloque no início da função 'use server' ou no início do arquivo. As funções devem ser assíncronas.
+
+- são simplesmente funções que usam a API do next
+- devem ser declaradas num arquivo 'use server'
+
+==========================================
+Server Actions
+==========================================
+
+- Configura automaticamente o endpoint
+- É possível passar como ação de um formulário
+- Não expôe o endpoint no cliente
+- Pode retornar JSX
+- Permite revalidarmos o cache
+
+
+
+==========================================
+Route Handlers
+==========================================
+
+- Precisamos configurar o endpoint
+- Pode ser utilizado por serviços externos
+- Não pode retornar JSX

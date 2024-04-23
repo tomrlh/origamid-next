@@ -1,0 +1,18 @@
+https://www.origamid.com/slide/nextjs/#/0303-cache/1
+
+Cache
+
+Por padrão o next usa o force-cache, que irá criar um cache persistente do fetch.
+
+export const revalidate = 10;
+
+seta o revalidate no componente inteiro
+
+
+
+revalidatePath:
+
+usado em: Route Handlers, Server Actions ou servidor
+
+
+
