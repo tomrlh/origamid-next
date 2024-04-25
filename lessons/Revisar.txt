@@ -1,0 +1,4 @@
+0402 generateStaticParams
+
+como ele gera rotas dinâmicas automaticamente?
+/[curso]/[aula]

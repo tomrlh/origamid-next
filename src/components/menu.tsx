@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { useParams, usePathname, useRouter } from "next/navigation";
 
 const Menu = () => {
+  const params = useParams();
+  const pathname = usePathname();
   return (
     <ul className="menu">
       <li>
