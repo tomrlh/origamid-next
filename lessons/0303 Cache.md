@@ -26,16 +26,16 @@ Podemos definir tags durante o fetch e revalidar o cache de todas as rotas que p
 
 Pode ser usada para revalidar uma lista de produtos, quando um novo produto for postado.
 
-// declarando tag
-const response = await fetch('https://api.origamid.online/acoes/lua', {
-  next: {
-    tags: ['acoes'],
-  },
-});
+    // declarando tag
+    const response = await fetch('https://api.origamid.online/acoes/lua', {
+      next: {
+        tags: ['acoes'],
+      },
+    });
 
 ====
 
-// revalidando tag
-import { revalidateTag } from 'next/cache';
+    // revalidando tag
+    import { revalidateTag } from 'next/cache';
 
-revalidateTag('acoes');
+    revalidateTag('acoes');

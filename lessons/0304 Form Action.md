@@ -6,8 +6,6 @@ O form possui um atributo chamado action, que pode ser usado para enviar os dado
 através de uma server action. A server action passa a receber um FormData como argumento.
 
 
-
-
 useFormStatus
 
 escuta o status do form
@@ -23,7 +21,7 @@ Com o useFormState é possível controlar o estado do formulário. O useFormStat
 array com dois valores, o primeiro é o estado do formulário e o segundo é a server action. 
 Ele deve receber a server action original como argumento.
 
-const [state, formAction] = useFormState(adicionarProdutoAction, {
-  errors: []
-})
+    const [state, formAction] = useFormState(adicionarProdutoAction, {
+      errors: []
+    })
 
