@@ -12,6 +12,9 @@ const Menu = () => {
         <Link href="/">Home</Link>
       </li>
       <li>
+        <Link href="/acoes">Ações</Link>
+      </li>
+      <li>
         <Link href="/acoes-server">Ações (Server Side)</Link>
       </li>
       <li>
